@@ -1,0 +1,45 @@
+  /*
+        Scanner scan = new Scanner(System.in);
+        System.out.println("lutfen yuzden kucuk bir sayi giriniz...");
+        double num = scan.nextDouble();
+        int sayi=(int) num;
+        */
+
+        // sayi negtifse veya tam sayi degilse uyari verelim
+        /*
+        if (num<0) {
+            System.out.println("negatif sayi giremezsiniz");
+        } else if (sayi!=num){
+            System.out.println("Lutfen tam sayi giriniz");
+
+        }else if(sayi>100){
+            System.out.println("Lutfen 100'den kucuk sayi girin");
+
+        }else {
+            for (int i = 1; i <= num; i++) {
+
+                if (i%3==0) {
+                    System.out.print(i + " ");
+                }
+            }
+        }
+
+        scan.close();
+    }
+}
+
+///yıldıxz
+   for (int n = 0; n < 5; n++){
+            for (int m=1 ; m<=n;m++){
+
+                System.out.print("*");
+            }
+            System.out.println(" ");
+        }
+
+        for (int k = 0; k < 5; k++){
+            for (int m=4;k<=m; m--){
+               System.out.print("*"+"H");
+            }
+            System.out.println(" ");
+        }
